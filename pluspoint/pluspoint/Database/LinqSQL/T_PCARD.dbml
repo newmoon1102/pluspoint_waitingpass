@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="pluspointDB" Class="T_PCARDDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\pluspointDB.mdf;Integrated Security=True" SettingsObjectName="pluspoint.Properties.Settings" SettingsPropertyName="pluspointDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.T_PCARD" Member="T_PCARD">
+    <Type Name="T_PCARD">
+      <Column Name="START_FUGO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TAMMATSU_CD" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RECORD_SU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TAMMATSU_VER" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RIYO_DATE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KAIIN_NO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SERVICE_CD" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="URIAGE_GAKU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="URIAGE_POINT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BAI_POINT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KAISU_POINT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TOKU_POINT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SHIN_POINT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RUIK_POINT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KOKAN_POINT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RIYO_KAISU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ZENKAI_RIYO_DATE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YUKO_KIGEN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SEKI_URIAGE_GAKU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UCHIZEI_KBN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TEISEI_KBN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TORIHIKI_KBN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KOSHIN_KBN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RANK_KBN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KAIIN_SHOGO_KBN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NAMAE_SHOGO_KBN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RECORD_NO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TANTOSHA_CD" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NYUKIN_GAKU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FUKA_PRE_GAKU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ZANGAKU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PRECA_FLG" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BARCODE_DATA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HIKITSUGI_DATA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KESSAI_PRE_GAKU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YOYAKU_DATE1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YOYAKU_DATE2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NAMAE_DATA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NAMAE_FLG" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NAMAE_KANA_DATA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PRECA_KIGEN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YOBI1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YOBI2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UPLOAD_FLG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UPLOAD_DATE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DBS_STATUS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DBS_CREATE_USER" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DBS_CREATE_DATE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DBS_UPDATE_USER" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DBS_UPDATE_DATE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

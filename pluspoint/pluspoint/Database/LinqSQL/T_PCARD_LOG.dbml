@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="pluspointDB" Class="T_PCARD_LOGDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\pluspointDB.mdf;Integrated Security=True" SettingsObjectName="pluspoint.Properties.Settings" SettingsPropertyName="pluspointDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.T_PCARD_LOG" Member="T_PCARD_LOG">
+    <Type Name="T_PCARD_LOG">
+      <Column Name="LOG_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MSG_ID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MSG" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DBS_STATUS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DBS_CREATE_USER" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DBS_CREATE_DATE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DBS_UPDATE_USER" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DBS_UPDATE_DATE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

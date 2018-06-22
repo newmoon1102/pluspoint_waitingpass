@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="pluspointDB" Class="APPLI_HISTORYDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\pluspointDB.mdf;Integrated Security=True" SettingsObjectName="pluspoint.Properties.Settings" SettingsPropertyName="pluspointDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.APPLI_HISTORY" Member="APPLI_HISTORY">
+    <Type Name="APPLI_HISTORY">
+      <Column Name="card_no" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="use_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="card_shop_no" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="user_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="operation_type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="total_amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="prepaid" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="point" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="other1" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="other2" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="other3" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="other4_credit" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="cash" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="added_point" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="card_point" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="card_prepaid" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="pointcard_history_get_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="pointcard_history_line_number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="card_point_before" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="card_prepaid_before" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="UPLOAD_FLG" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UPLOAD_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

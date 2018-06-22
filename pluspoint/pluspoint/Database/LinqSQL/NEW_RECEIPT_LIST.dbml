@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="pluspointDB" Class="NEW_RECEIPT_LISTDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\pluspointDB.mdf;Integrated Security=True" SettingsObjectName="pluspoint.Properties.Settings" SettingsPropertyName="pluspointDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.NEW_RECEIPT_LIST" Member="NEW_RECEIPT_LIST">
+    <Type Name="NEW_RECEIPT_LIST">
+      <Column Name="RECEIPT_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MEMBER_ID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RECEIPT_DATE" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CARD_NO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="QR_CODE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CARD_POINT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LAST_NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FIRT_NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LAST_NAME_Y" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FIRT_NAME_Y" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ZIP_1" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="ZIP_2" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="PREF_NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AREA_NAME" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CITY_NAME" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BLOCK" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BUILDING" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TEL_NUMBER_1" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="TEL_NUMBER_2" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="TEL_NUMBER_3" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="MOBILE_NUMBER_1" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="MOBILE_NUMBER_2" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="MOBILE_NUMBER_3" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="OTHER_NUMBER_1" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="OTHER_NUMBER_2" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="OTHER_NUMBER_3" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="MAIL_ADDRESS" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="PASSWORD" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="CALL_NAME" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MAILMAGA_DISABLE_FLG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DM_DISABLE_FLG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SEX" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="BIRTH" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MEMBER_TYPE" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CARD_ISSUE_DATE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CARD_FLG" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

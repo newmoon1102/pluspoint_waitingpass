@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.125" name="T_PCARD">
+  <DataContextMoniker Name="/T_PCARDDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a99b6662-0076-4a39-91f1-3df34c850fff" absoluteBounds="0.5, 0.5, 2, 10.424461263020833">
+      <DataClassMoniker Name="/T_PCARDDataContext/T_PCARD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a64c2d88-91ad-41cc-b660-098c033fe618" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 9.8644612630208321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
