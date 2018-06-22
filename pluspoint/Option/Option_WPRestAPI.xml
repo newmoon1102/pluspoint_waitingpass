@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <URL_BaseURL>https://mng-dev-waitingpass.webimpact.co.jp/api/pointcard</URL_BaseURL>
+  <URL_MemberSet>/member/set</URL_MemberSet>
+  <URL_MemberGet>/member/get</URL_MemberGet>
+  <URL_MemberSearch>/member/search</URL_MemberSearch>
+  <URL_MemberMerge>/member/merge</URL_MemberMerge>
+  <URL_HistoryUpload>/history/upload</URL_HistoryUpload>
+  <URL_ShopAuth>/shop/auth</URL_ShopAuth>
+  <URL_MemberAuth>/member/auth</URL_MemberAuth>
+  <URL_HistoryUploadAppli>/history/upload_appli</URL_HistoryUploadAppli>
+  <URL_MemberMatchingList>/member/matchinglist</URL_MemberMatchingList>
+  <URL_MasterZip>https://www.waitingpass.com/heishirou/member/api/zip</URL_MasterZip>
+</root>
